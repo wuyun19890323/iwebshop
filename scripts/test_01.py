@@ -1,7 +1,10 @@
+import sys
+import os
+import unittest
+sys.path.append(os.getcwd())
 from selenium.webdriver.common.by import By
 from base.base_driver import browser_fire
 from page.page_load import PageLoad
-import unittest
 
 
 class TestLoad(unittest.TestCase):
